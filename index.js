@@ -50,8 +50,8 @@ client.once('ready', async () => {
   console.log('Ready!');
 });
 
-client.on('ready', function() {
-  client.user.setActivity(config.activity, { type: config.activityType });
+client.on('ready', function () {
+  client.user.setActivity(config.activity, {type: config.activityType});
 });
 
 client.once('reconnecting', () => {
